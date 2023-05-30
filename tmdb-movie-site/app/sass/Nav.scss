@@ -1,6 +1,23 @@
 @media (min-width: 360px) {
   .nav-container{
     background-color: red;
+    height: 60px;
+    padding: 0 20px;
+    position: fixed;
+    left: 0;
+    right: 0;
+
+    .nav-wrapper{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 60px;
+
+      h1{
+        color: black;
+        font-family: Raleway;
+      }
+    }
   }
 }
 
