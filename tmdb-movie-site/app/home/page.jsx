@@ -1,8 +1,12 @@
 import React from 'react'
+import "../sass/Home/Page.scss"
+import Hero from './Hero'
 
 const Page = () => {
   return (
-    <div>This is home page</div>
+    <div className='home-container'>
+      <Hero/>
+    </div>
   )
 }
 
