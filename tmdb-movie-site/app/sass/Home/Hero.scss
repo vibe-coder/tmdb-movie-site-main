@@ -1,12 +1,12 @@
 @media (min-width: 360px) {
   .hero-container{
-    height: 55vh;
+    height: 70vh;
     background-color: rgb(0, 0, 0);
     position: relative;
     margin-bottom: 10px;
 
 
-    img{
+    .backdrop-image{
       width: 100vw;
       height: 100%;
       object-fit: cover;
@@ -20,9 +20,9 @@
       background-color: rgba($color: #000000, $alpha: .7);
       height: 100%;
       display: flex;
-      justify-content: center;
+      justify-content: flex-end;
       flex-direction: column;
-      padding: 20px 10px;
+      padding: 50px 10px;
       align-items: center;
       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
@@ -34,19 +34,42 @@
       h2{
         text-align: center;
         width: 300px;
-        font-size: 1.3rem;
-        margin-top: 5px;
+        font-size: 1.2rem;
+        margin-top: 40px;
+        font-weight: 300;
       }
 
       button{
         margin-top: 50px; 
-        padding: 20px;       
+        padding: 15px 20px;       
         font-size: 1rem;
         font-weight: 500;
         border-radius: 10px;
         border: none;
-        background-color: #f1b204;
-        color: black;
+        background-color: rgba(241,	178,	4, $alpha: 1.0);
+        color: rgb(0, 0, 0);
+      }
+
+      .arrow-icon{
+        transform: rotate(180deg);
+        margin-top: 90px;
+        position: relative;
+        animation: movingarrow 2s infinite linear;
+      }
+
+
+      @keyframes movingarrow {
+        0%{
+          transform: translateY(0px);
+        }
+
+        50%{
+          transform: translateY(20px);
+        }
+
+        100%{
+          transform: translateY(0px);
+        }
       }
     }
   }
