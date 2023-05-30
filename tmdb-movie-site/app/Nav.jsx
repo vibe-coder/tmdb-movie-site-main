@@ -1,5 +1,6 @@
 import React from 'react'
 import "./sass/Nav.scss"
+import Link from "next/link"
 
 import {Raleway} from "next/font/google"
 
@@ -7,8 +8,8 @@ const Nav = () => {
   return (
     <div className='nav-container'>
       <div className='nav-wrapper'>
-        <h1><span className='bold-logo'>Movie</span>Space</h1>
-        <button tabIndex= "0" >Category</button>
+        <Link className='logo' href="/">MovieSpace</Link>
+        <Link className='category' href="/" >Category</Link>
       </div>
     </div>
   )

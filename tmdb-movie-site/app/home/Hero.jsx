@@ -9,8 +9,9 @@ const Hero = () => {
       <Image className='backdrop_image' src={IronMan} alt='Iron Man' />
       
       <div className='item-wrapper'>
-        <p>Welcome back!</p>
         <h1>MovieSapce</h1>
+        <h2>Unlimited movies, TV shows, and more.</h2>
+        <button>Ready to explore?</button>
       </div>
      </div>
   )
