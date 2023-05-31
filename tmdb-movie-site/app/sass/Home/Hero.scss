@@ -17,7 +17,7 @@
     .item-wrapper{
       position: relative;
       z-index: 2;
-      background-color: rgba($color: #000000, $alpha: .7);
+      background-color: rgba($color: #000000, $alpha: .6);
       height: 100%;
       display: flex;
       justify-content: flex-end;
@@ -40,7 +40,7 @@
         text-align: center;
         width: 300px;
         font-size: 1.2rem;
-        margin-top: 40px;
+        margin-top: 20px;
         font-weight: 300;
       }
 
