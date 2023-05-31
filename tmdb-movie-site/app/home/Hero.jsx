@@ -1,6 +1,6 @@
 import React from 'react'
 import "../sass/Home/Hero.scss"
-import IronMan from "../images/Iron-Man.jpg"
+import IronMan from "../images/movie-collage.jpg"
 import Image from 'next/image'
 import { IoChevronDownSharp } from "react-icons/io5";
 

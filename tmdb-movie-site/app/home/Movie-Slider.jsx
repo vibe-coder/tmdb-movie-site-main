@@ -9,16 +9,16 @@ const MovieSlider = () => {
     <Image priority={true} className='backdrop_image' src={IronMan} alt='Iron Man' />
     
     <div className='item-wrapper'>
-      <div className='left'>L</div>
+      {/* <div className='left'>L</div> */}
 
       <div className='center'>
-        <p>Now Showing</p>
+        <p className='now-showing'>Now Showing</p>
         <h1 className='movie-title'>Iron Man</h1>
         <p className='movie-description'>When Tony Stark, an industrialist, is captured, he constructs a high-tech armoured suit to escape. Once he manages to escape, he decides to use his suit to fight against evil forces to save the world.</p>
         <p className='movie-date'>Realeased: 2023-05-17</p>
       </div>
 
-      <div className='right'>R</div>
+      {/* <div className='right'>R</div> */}
     </div>
    </div>
   )
