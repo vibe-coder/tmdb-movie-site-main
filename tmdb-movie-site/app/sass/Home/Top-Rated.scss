@@ -1,5 +1,5 @@
 @media (min-width: 360px) {
-  .upcoming-container{
+  .top-rated-container{
     background-color: #27272a;
     color: rgb(255, 255, 255);
     padding: 50px 20px;
@@ -10,13 +10,13 @@
       font-size: 1.5rem;
     }
   
-    .upcoming-movies-wrapper{
+    .top-rated-wrapper{
       margin-top: 20px;
       display: flex;
       flex-wrap: wrap;
       gap: 8px;
   
-      .movie-wrapper{
+      .movie-wrapper-2{
         background-color: green;
         width: 118px;
         height: 200px;
@@ -24,7 +24,7 @@
         flex: 1;
       }
   
-      .poster{
+      .poster-2{
         object-fit: cover;
         object-position: center;
         width: 100%;
@@ -33,4 +33,3 @@
     }
   }
 }
-

@@ -3,6 +3,8 @@ import "../sass/Home/Page.scss"
 import Hero from './Hero'
 import MovieSlider from './Movie-Slider'
 import UpcomingMovies from './Upcoming-Movies'
+import TopRated from './Top-Rated'
+
 
 
 
@@ -12,7 +14,7 @@ const Page = () => {
       <Hero/>
       <MovieSlider/>
       <UpcomingMovies/>
-      <MovieSlider/>
+      <TopRated/>
     </div>
   )
 }
