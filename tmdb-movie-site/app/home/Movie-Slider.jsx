@@ -6,7 +6,7 @@ import Image from 'next/image'
 const MovieSlider = () => {
   return (
     <div className='slider-container'>
-    <Image className='backdrop_image' src={IronMan} alt='Iron Man' />
+    <Image priority={true} className='backdrop_image' src={IronMan} alt='Iron Man' />
     
     <div className='item-wrapper'>
       <div className='left'>L</div>
