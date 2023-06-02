@@ -21,8 +21,8 @@ const Hero = () => {
       <div className='item-wrapper'>
         <p>Welcome back!</p>
         <h1>MovieSpace</h1>
-        <h2>Unlimited movies, TV shows, and more.</h2>
-        <input className='search' placeholder='Search'/>
+        <h2>Unlimited movies.</h2>
+        <input className='search' placeholder='Search for movie'/>
         {/* <button>Ready to explore?</button> */}
         <IoChevronDownSharp className='arrow-icon'/>
       </div>

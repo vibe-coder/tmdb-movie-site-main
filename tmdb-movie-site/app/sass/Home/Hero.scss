@@ -57,13 +57,22 @@
 
       .search{
         height: 40px;
-        background-color: rgba($color: #ffffff, $alpha: .6);
+        background-color: rgba($color: #ffffff, $alpha: .4);
         width: 300px;
         border: none;
         padding-left: 10px;
         margin-top: 30px;
-        color: black;
-        font-size: 1.5rem;
+        font-size: 1rem;
+      }
+
+      .search::placeholder{
+        color: white;
+      }
+
+      .search:focus{
+        border: none;
+        outline: none !important;
+        border: 1px solid white;
       }
 
       .arrow-icon{
