@@ -20,9 +20,10 @@ const Hero = () => {
       
       <div className='item-wrapper'>
         <p>Welcome back!</p>
-        <h1>MovieSapce</h1>
+        <h1>MovieSpace</h1>
         <h2>Unlimited movies, TV shows, and more.</h2>
-        <button>Ready to explore?</button>
+        <input className='search' placeholder='Search'/>
+        {/* <button>Ready to explore?</button> */}
         <IoChevronDownSharp className='arrow-icon'/>
       </div>
      </div>

@@ -8,7 +8,8 @@ const Nav = () => {
   return (
     <div className='nav-container'>
       <div className='nav-wrapper'>
-        <Link className='logo' href="/">MovieSpace</Link>
+        <Link className='logo' href="/"><p>MovieSpace</p></Link>
+        {/* <input className='search' placeholder='Search'/> */}
         <Link className='category' href="/" >Category</Link>
       </div>
     </div>

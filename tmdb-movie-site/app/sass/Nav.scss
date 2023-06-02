@@ -18,13 +18,21 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      gap: 10px;
       height: 100%;
 
       .logo{
         color: #f1b204;
         font-family: Raleway;
         font-weight: 600;
-        font-size: 1.4rem;
+        font-size: 1rem;
+      }
+
+      .search{
+        height: 30px;
+        width: 137px;
+        border: none;
+        padding-left: 10px;
       }
 
       .category{
