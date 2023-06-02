@@ -11,7 +11,7 @@ import { IoChevronDownSharp } from "react-icons/io5";
 const Hero = () => {
   return (
     <div className='hero-container'>
-      <Image className='backdrop-image' src={IronMan} alt='Iron Man' />
+      <Image priority={true} className='backdrop-image' src={IronMan} alt='Iron Man' />
 
       {/* <video autoPlay muted loop className="backdrop-video">         
         <source src="../images/kung-fu-panda.mp4" type="video/mp4"/>       

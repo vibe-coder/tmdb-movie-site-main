@@ -3,7 +3,11 @@ import "../sass/Category/Page.scss"
 
 const Page = () => {
   return (
-    <div className='category-container'>Page</div>
+    <div className='category-container'>
+      
+      Page
+      
+    </div>
   )
 }
 

@@ -19,16 +19,18 @@
       .upcoming-movie-wrapper{
         background-color: green;
         width: 118px;
-        height: 200px;
+        height: 180px;
         aspect-ratio: 3/2;
         flex: 1;
+        border-radius: 10px;
       }
   
       .upcoming-movie-poster{
-        object-fit: cover;
+        object-fit:fill;
         object-position: center;
         width: 100%;
         height: 100%;
+        border-radius: 10px;
       }
     }
   }
