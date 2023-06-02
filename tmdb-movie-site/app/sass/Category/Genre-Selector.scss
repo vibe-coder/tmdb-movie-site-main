@@ -13,8 +13,7 @@
       width:60px;
       height: 150px;
       position: relative;
-      
-      margin-bottom: 10px;
+      flex: 1;
       background-color: rgb(25, 37, 40);
       border: none;
       cursor: pointer;
@@ -35,7 +34,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: rgba($color: #000000, $alpha: .5);
+        background-color: rgba($color: #000000, $alpha: .9);
         position: absolute;
         top: 0;
         bottom: 0;
@@ -45,17 +44,18 @@
         h1{
           font-size: .8rem;
           margin: 0;
-          font-weight: 400;
+          font-weight: 500;
           letter-spacing: 1px;
           writing-mode:vertical-lr;
           transform: rotate(180deg);
+          color: #c5c5c5;
         }
       }
     }
 
     .genre:focus{
       background-color: red;
-      width: 80px;
+      width: 100px;
     }
   }
 }
