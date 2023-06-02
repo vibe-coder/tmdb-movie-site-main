@@ -8,132 +8,133 @@ const GenreSelector = () => {
     <div className='genre-container'>
       <div className="genre-wrapper">
         
-        <div className="genre">
-          <Image className="genre-image" src={backDropImage} alt="back drop"/>
+        <button className="genre">
+          {/* <Image className="genre-image" src={backDropImage} alt="back drop"/> */}
           <div className="genre-category">
             <h1>ACTION</h1>
           </div>
-        </div>
+        </button>
 
-        <div className="genre">
-          <Image className="genre-image" src={backDropImage} alt="back drop"/>
+        <button className="genre">
+          {/* <Image className="genre-image" src={backDropImage} alt="back drop"/> */}
           <div className="genre-category">
-            <h1>ADVENTURE</h1>
+            <h1>ACTION</h1>
           </div>
-        </div>
+        </button>
 
-        <div className="genre">
-          <Image className="genre-image" src={backDropImage} alt="back drop"/>
+        <button className="genre">
+          {/* <Image className="genre-image" src={backDropImage} alt="back drop"/> */}
           <div className="genre-category">
-            <h1>ANIMATION</h1>
+            <h1>ACTION</h1>
           </div>
-        </div>
+        </button>
 
-        <div className="genre">
-          <Image className="genre-image" src={backDropImage} alt="back drop"/>
+        <button className="genre">
+          {/* <Image className="genre-image" src={backDropImage} alt="back drop"/> */}
           <div className="genre-category">
-            <h1>COMEDY</h1>
+            <h1>ACTION</h1>
           </div>
-        </div>
+        </button>
 
-        <div className="genre">
-          <Image className="genre-image" src={backDropImage} alt="back drop"/>
+        <button className="genre">
+          {/* <Image className="genre-image" src={backDropImage} alt="back drop"/> */}
           <div className="genre-category">
-            <h1>CRIME</h1>
+            <h1>ACTION</h1>
           </div>
-        </div>
+        </button>
 
-        <div className="genre">
-          <Image className="genre-image" src={backDropImage} alt="back drop"/>
+        <button className="genre">
+          {/* <Image className="genre-image" src={backDropImage} alt="back drop"/> */}
           <div className="genre-category">
-            <h1>DOCUMENTARY</h1>
+            <h1>ACTION</h1>
           </div>
-        </div>
+        </button>
 
-        <div className="genre">
-          <Image className="genre-image" src={backDropImage} alt="back drop"/>
+        <button className="genre">
+          {/* <Image className="genre-image" src={backDropImage} alt="back drop"/> */}
           <div className="genre-category">
-            <h1>DRAMA</h1>
+            <h1>ACTION</h1>
           </div>
-        </div>
+        </button>
 
-        <div className="genre">
-          <Image className="genre-image" src={backDropImage} alt="back drop"/>
+        <button className="genre">
+          {/* <Image className="genre-image" src={backDropImage} alt="back drop"/> */}
           <div className="genre-category">
-            <h1>FAMILY</h1>
+            <h1>ACTION</h1>
           </div>
-        </div>
+        </button>
 
-        <div className="genre">
-          <Image className="genre-image" src={backDropImage} alt="back drop"/>
+        <button className="genre">
+          {/* <Image className="genre-image" src={backDropImage} alt="back drop"/> */}
           <div className="genre-category">
-            <h1>FANTASY</h1>
+            <h1>ACTION</h1>
           </div>
-        </div>
+        </button>
 
-        <div className="genre">
-          <Image className="genre-image" src={backDropImage} alt="back drop"/>
+        <button className="genre">
+          {/* <Image className="genre-image" src={backDropImage} alt="back drop"/> */}
           <div className="genre-category">
-            <h1>HISTORY</h1>
+            <h1>ACTION</h1>
           </div>
-        </div>
+        </button>
 
-        <div className="genre">
-          <Image className="genre-image" src={backDropImage} alt="back drop"/>
+        <button className="genre">
+          {/* <Image className="genre-image" src={backDropImage} alt="back drop"/> */}
           <div className="genre-category">
-            <h1>HORROR</h1>
+            <h1>ACTION</h1>
           </div>
-        </div>
+        </button>
 
-        <div className="genre">
-          <Image className="genre-image" src={backDropImage} alt="back drop"/>
+        <button className="genre">
+          {/* <Image className="genre-image" src={backDropImage} alt="back drop"/> */}
           <div className="genre-category">
-            <h1>MUSIC</h1>
+            <h1>ACTION</h1>
           </div>
-        </div>
+        </button>
 
-        <div className="genre">
-          <Image className="genre-image" src={backDropImage} alt="back drop"/>
+        <button className="genre">
+          {/* <Image className="genre-image" src={backDropImage} alt="back drop"/> */}
           <div className="genre-category">
-            <h1>MYSTERY</h1>
+            <h1>ACTION</h1>
           </div>
-        </div>
+        </button>
 
-        <div className="genre">
-          <Image className="genre-image" src={backDropImage} alt="back drop"/>
+        <button className="genre">
+          {/* <Image className="genre-image" src={backDropImage} alt="back drop"/> */}
           <div className="genre-category">
-            <h1>ROMANCE</h1>
+            <h1>ACTION</h1>
           </div>
-        </div>
+        </button>
 
-        <div className="genre">
-          <Image className="genre-image" src={backDropImage} alt="back drop"/>
+        <button className="genre">
+          {/* <Image className="genre-image" src={backDropImage} alt="back drop"/> */}
           <div className="genre-category">
-            <h1>SCIENCE FICTION</h1>
+            <h1>ACTION</h1>
           </div>
-        </div>
+        </button>
 
-        <div className="genre">
-          <Image className="genre-image" src={backDropImage} alt="back drop"/>
+        <button className="genre">
+          {/* <Image className="genre-image" src={backDropImage} alt="back drop"/> */}
           <div className="genre-category">
-            <h1>THRILLER</h1>
+            <h1>ACTION</h1>
           </div>
-        </div>
+        </button>
 
-        <div className="genre">
-          <Image className="genre-image" src={backDropImage} alt="back drop"/>
+        <button className="genre">
+          {/* <Image className="genre-image" src={backDropImage} alt="back drop"/> */}
           <div className="genre-category">
-            <h1>WAR</h1>
+            <h1>ACTION</h1>
           </div>
-        </div>
+        </button>
 
-        <div className="genre">
-          <Image className="genre-image" src={backDropImage} alt="back drop"/>
+        <button className="genre">
+          {/* <Image className="genre-image" src={backDropImage} alt="back drop"/> */}
           <div className="genre-category">
-            <h1>WESTERN</h1>
+            <h1>ACTION</h1>
           </div>
-        </div>
+        </button>
 
+        
       </div>
     </div>
   )
