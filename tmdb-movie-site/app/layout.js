@@ -17,7 +17,6 @@ export default function RootLayout({ children }) {
       <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap" rel="stylesheet"/>
         <Nav/>
         {children}
-        <Footer/>
       </body>
     </html>
   )

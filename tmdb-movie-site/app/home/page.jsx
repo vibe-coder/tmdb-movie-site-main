@@ -5,6 +5,7 @@ import MovieSlider from './Movie-Slider'
 import UpcomingMovies from './Upcoming-Movies'
 import TopRated from './Top-Rated'
 import PopularMovies from './Popular-Movies'
+import Footer from '../Footer'
 
 
 
@@ -17,6 +18,7 @@ const Page = () => {
       <UpcomingMovies/>
       <TopRated/>
       <PopularMovies/>
+      <Footer/>
     </div>
   )
 }
