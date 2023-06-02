@@ -4,6 +4,7 @@ import Hero from './Hero'
 import MovieSlider from './Movie-Slider'
 import UpcomingMovies from './Upcoming-Movies'
 import TopRated from './Top-Rated'
+import PopularMovies from './Popular-Movies'
 
 
 
@@ -15,6 +16,7 @@ const Page = () => {
       <MovieSlider/>
       <UpcomingMovies/>
       <TopRated/>
+      <PopularMovies/>
     </div>
   )
 }

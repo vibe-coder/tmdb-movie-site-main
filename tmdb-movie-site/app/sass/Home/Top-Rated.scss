@@ -10,13 +10,13 @@
       font-size: 1.5rem;
     }
   
-    .top-rated-wrapper{
+    .top-rated-movies-wrapper{
       margin-top: 20px;
       display: flex;
       flex-wrap: wrap;
       gap: 8px;
   
-      .movie-wrapper-2{
+      .top-rated-movie-wrapper{
         background-color: green;
         width: 118px;
         height: 200px;
@@ -24,7 +24,7 @@
         flex: 1;
       }
   
-      .poster-2{
+      .top-rated-poster{
         object-fit: cover;
         object-position: center;
         width: 100%;

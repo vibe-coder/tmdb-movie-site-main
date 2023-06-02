@@ -8,54 +8,55 @@ const TopRated = () => {
     <div className='top-rated-container'>
       <h1>Top Rated Movies</h1>
 
-      <div className='top-rated-wrapper'>
-      <div className='movie-wrapper-2'>
-          <Image priority={true} className='poster-2' src={John} alt='Iron Man' />        
+      <div className='top-rated-movies-wrapper'>
+        <div className='top-rated-movie-wrapper'>
+          <Image priority={true} className='top-rated-poster' src={John} alt='Iron Man' />        
         </div>
 
-        <div className='movie-wrapper-2'>
-          <Image priority={true} className='poster-2' src={John} alt='Iron Man' />        
+        <div className='top-rated-movie-wrapper'>
+          <Image priority={true} className='top-rated-poster' src={John} alt='Iron Man' />        
         </div>
 
-        <div className='movie-wrapper-2'>
-          <Image priority={true} className='poster-2' src={John} alt='Iron Man' />        
+        <div className='top-rated-movie-wrapper'>
+          <Image priority={true} className='top-rated-poster' src={John} alt='Iron Man' />        
         </div>
 
-        <div className='movie-wrapper-2'>
-          <Image priority={true} className='poster-2' src={John} alt='Iron Man' />        
-        </div>
-                
-        <div className='movie-wrapper-2'>
-          <Image priority={true} className='poster-2' src={John} alt='Iron Man' />        
-        </div>
-                
-        <div className='movie-wrapper-2'>
-          <Image priority={true} className='poster-2' src={John} alt='Iron Man' />        
+        <div className='top-rated-movie-wrapper'>
+          <Image priority={true} className='top-rated-poster' src={John} alt='Iron Man' />        
         </div>
 
-        <div className='movie-wrapper-2'>
-          <Image priority={true} className='poster-2' src={John} alt='Iron Man' />        
+        <div className='top-rated-movie-wrapper'>
+          <Image priority={true} className='top-rated-poster' src={John} alt='Iron Man' />        
         </div>
 
-        <div className='movie-wrapper-2'>
-          <Image priority={true} className='poster-2' src={John} alt='Iron Man' />        
+        <div className='top-rated-movie-wrapper'>
+          <Image priority={true} className='top-rated-poster' src={John} alt='Iron Man' />        
         </div>
 
-        <div className='movie-wrapper-2'>
-          <Image priority={true} className='poster-2' src={John} alt='Iron Man' />        
+        <div className='top-rated-movie-wrapper'>
+          <Image priority={true} className='top-rated-poster' src={John} alt='Iron Man' />        
         </div>
 
-        <div className='movie-wrapper-2'>
-          <Image priority={true} className='poster-2' src={John} alt='Iron Man' />        
+        <div className='top-rated-movie-wrapper'>
+          <Image priority={true} className='top-rated-poster' src={John} alt='Iron Man' />        
         </div>
-                
-        <div className='movie-wrapper-2'>
-          <Image priority={true} className='poster-2' src={John} alt='Iron Man' />        
+
+        <div className='top-rated-movie-wrapper'>
+          <Image priority={true} className='top-rated-poster' src={John} alt='Iron Man' />        
         </div>
-                
-        <div className='movie-wrapper-2'>
-          <Image priority={true} className='poster-2' src={John} alt='Iron Man' />        
+
+        <div className='top-rated-movie-wrapper'>
+          <Image priority={true} className='top-rated-poster' src={John} alt='Iron Man' />        
         </div>
+
+        <div className='top-rated-movie-wrapper'>
+          <Image priority={true} className='top-rated-poster' src={John} alt='Iron Man' />        
+        </div>
+
+        <div className='top-rated-movie-wrapper'>
+          <Image priority={true} className='top-rated-poster' src={John} alt='Iron Man' />        
+        </div>
+
       </div>
     </div>
   )

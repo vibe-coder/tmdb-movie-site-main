@@ -10,52 +10,52 @@ const UpcomingMovies = (prop) => {
       <h1>Upcoming Movies</h1>
 
       <div className='upcoming-movies-wrapper'>
-      <div className='movie-wrapper'>
-          <Image priority={true} className='poster' src={John} alt='Iron Man' />        
+        <div className='upcoming-movie-wrapper'>
+          <Image priority={true} className='upcoming-movie-poster' src={John} alt='Iron Man' />        
         </div>
 
-        <div className='movie-wrapper'>
-          <Image priority={true} className='poster' src={John} alt='Iron Man' />        
+        <div className='upcoming-movie-wrapper'>
+          <Image priority={true} className='upcoming-movie-poster' src={John} alt='Iron Man' />        
         </div>
 
-        <div className='movie-wrapper'>
-          <Image priority={true} className='poster' src={John} alt='Iron Man' />        
+        <div className='upcoming-movie-wrapper'>
+          <Image priority={true} className='upcoming-movie-poster' src={John} alt='Iron Man' />        
         </div>
 
-        <div className='movie-wrapper'>
-          <Image priority={true} className='poster' src={John} alt='Iron Man' />        
+        <div className='upcoming-movie-wrapper'>
+          <Image priority={true} className='upcoming-movie-poster' src={John} alt='Iron Man' />        
         </div>
 
-        <div className='movie-wrapper'>
-          <Image priority={true} className='poster' src={John} alt='Iron Man' />        
+        <div className='upcoming-movie-wrapper'>
+          <Image priority={true} className='upcoming-movie-poster' src={John} alt='Iron Man' />        
         </div>
 
-        <div className='movie-wrapper'>
-          <Image priority={true} className='poster' src={John} alt='Iron Man' />        
-        </div>
-        <div className='movie-wrapper'>
-          <Image priority={true} className='poster' src={John} alt='Iron Man' />        
+        <div className='upcoming-movie-wrapper'>
+          <Image priority={true} className='upcoming-movie-poster' src={John} alt='Iron Man' />        
         </div>
 
-        <div className='movie-wrapper'>
-          <Image priority={true} className='poster' src={John} alt='Iron Man' />        
+        <div className='upcoming-movie-wrapper'>
+          <Image priority={true} className='upcoming-movie-poster' src={John} alt='Iron Man' />        
         </div>
 
-        <div className='movie-wrapper'>
-          <Image priority={true} className='poster' src={John} alt='Iron Man' />        
+        <div className='upcoming-movie-wrapper'>
+          <Image priority={true} className='upcoming-movie-poster' src={John} alt='Iron Man' />        
         </div>
 
-        <div className='movie-wrapper'>
-          <Image priority={true} className='poster' src={John} alt='Iron Man' />        
+        <div className='upcoming-movie-wrapper'>
+          <Image priority={true} className='upcoming-movie-poster' src={John} alt='Iron Man' />        
+        </div>
+        <div className='upcoming-movie-wrapper'>
+          <Image priority={true} className='upcoming-movie-poster' src={John} alt='Iron Man' />        
+        </div>
+        <div className='upcoming-movie-wrapper'>
+          <Image priority={true} className='upcoming-movie-poster' src={John} alt='Iron Man' />        
         </div>
 
-        <div className='movie-wrapper'>
-          <Image priority={true} className='poster' src={John} alt='Iron Man' />        
+        <div className='upcoming-movie-wrapper'>
+          <Image priority={true} className='upcoming-movie-poster' src={John} alt='Iron Man' />        
         </div>
 
-        <div className='movie-wrapper'>
-          <Image priority={true} className='poster' src={John} alt='Iron Man' />        
-        </div>
       </div>
     </div>
   )
