@@ -6,7 +6,7 @@ import "../sass/Home/Popular-Movies.scss"
 const PopularMovies = () => {
   return (
     <div className='popular-movies-container'>
-      <h1>Popular Movies</h1>
+      <h1>Popular</h1>
       
       <div className='popular-movies-wrapper'>
         <div className='popular-movie-wrapper'>

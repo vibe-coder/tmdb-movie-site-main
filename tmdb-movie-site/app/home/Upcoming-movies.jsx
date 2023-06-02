@@ -7,7 +7,7 @@ const UpcomingMovies = (prop) => {
   return (
     <div className='upcoming-container'>
 
-      <h1>Upcoming Movies</h1>
+      <h1>Upcoming</h1>
 
       <div className='upcoming-movies-wrapper'>
         <div className='upcoming-movie-wrapper'>

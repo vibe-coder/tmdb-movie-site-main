@@ -6,7 +6,7 @@ import John from "../images/john.jpeg"
 const TopRated = () => {
   return (
     <div className='top-rated-container'>
-      <h1>Top Rated Movies</h1>
+      <h1>Top Rated</h1>
 
       <div className='top-rated-movies-wrapper'>
         <div className='top-rated-movie-wrapper'>
