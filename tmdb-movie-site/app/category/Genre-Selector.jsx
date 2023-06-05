@@ -10,9 +10,11 @@ const GenreSelector = () => {
 
 
   const GenreCard = Data.map((data) => {
-    <MovieGenre name = {data.name} backdrop={data.img}/>
+    return(
+      <MovieGenre name={data.name} backdrop={data.backdrop} width={200} height={200}/>
+    )
+    
   })
-
 
   return (
     <div className='genre-container'>

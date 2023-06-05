@@ -1,92 +1,92 @@
 const Data = [
   {
     name: 'ACTION',
-    backdrop: "../images/action.jpg"
+    img: "../images/action.jpg"
   },
 
   {
     name: 'ADVENTURE',
-    backdrop: "../images/action.jpg"
+    img: "../images/adventure.jpg"
   },
 
   {
     name: 'ANIMATION',
-    backdrop: "../images/action.jpg"
+    img: "../images/animation.jpg"
   },
 
   {
     name: 'COMEDY',
-    backdrop: "../images/action.jpg"
+    img: "../images/comedy.jpeg"
   },
 
   {
     name: 'CRIME',
-    backdrop: "../images/action.jpg"
+    img: "../images/crime.jpg"
   },
 
   {
     name: 'DOCUMENTARY',
-    backdrop: "../images/action.jpg"
+    img: "../images/documentary.webp"
   },
 
   {
     name: 'DRAMA',
-    backdrop: "../images/action.jpg"
+    img: "../images/drama.jpg"
   },
 
   {
     name: 'FAMILY',
-    backdrop: "../images/action.jpg"
+    img: "../images/family.jpg"
   },
 
   {
     name: 'FANTASY',
-    backdrop: "../images/action.jpg"
+    img: "../images/fantasy.jpg"
   },
 
   {
     name: 'HISTORY',
-    backdrop: "../images/action.jpg"
+    img: "../images/history.jpg"
   },
 
   {
     name: 'HORROR',
-    backdrop: "../images/action.jpg"
+    img: "../images/horror.jpg"
   },
 
   {
     name: 'MUSIC',
-    backdrop: "../images/action.jpg"
+    img: "../images/music.jpg"
   },
 
   {
     name: 'MYSTERY',
-    backdrop: "../images/action.jpg"
+    img: "../images/mystery.jpeg"
   },
 
   {
     name: 'ROMANCE',
-    backdrop: "../images/action.jpg"
+    img: "../images/romance.jpeg"
   },
 
   {
     name: 'SCIENCE FICTION',
-    backdrop: "../images/action.jpg"
+    img: "../images/science-fiction.jpg"
   },
 
   {
     name: 'THRILLER',
-    backdrop: "../images/action.jpg"
+    img: "../images/thriller.jpg"
   },
 
   {
     name: 'WAR',
-    backdrop: "../images/action.jpg"
+    img: "../images/war.jpg"
   },
 
   {
     name: 'WESTERN',
-    backdrop: "../images/action.jpg"
+    img: "../images/western.jpg"
   },
 ]
 
