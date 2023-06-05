@@ -11,7 +11,7 @@ const GenreSelector = () => {
 
   const GenreCard = Data.map((data) => {
     return(
-      <MovieGenre name={data.name} backdrop={data.backdrop} width={200} height={200}/>
+      <MovieGenre name={data.name} image={data.img} width={200} height={200}/>
     )
     
   })

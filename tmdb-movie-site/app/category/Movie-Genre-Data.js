@@ -6,87 +6,87 @@ const Data = [
 
   {
     name: 'ADVENTURE',
-    img: "../images/adventure.jpg"
+    img: "../images/action.jpg"
   },
 
   {
     name: 'ANIMATION',
-    img: "../images/animation.jpg"
+    img: "../images/action.jpg"
   },
 
   {
     name: 'COMEDY',
-    img: "../images/comedy.jpeg"
+    img: "../images/action.jpg"
   },
 
   {
     name: 'CRIME',
-    img: "../images/crime.jpg"
+    img: "../images/action.jpg"
   },
 
   {
     name: 'DOCUMENTARY',
-    img: "../images/documentary.webp"
+    img: "../images/action.jpg"
   },
 
   {
     name: 'DRAMA',
-    img: "../images/drama.jpg"
+    img: "../images/action.jpg"
   },
 
   {
     name: 'FAMILY',
-    img: "../images/family.jpg"
+    img: "../images/action.jpg"
   },
 
   {
     name: 'FANTASY',
-    img: "../images/fantasy.jpg"
+    img: "../images/action.jpg"
   },
 
   {
     name: 'HISTORY',
-    img: "../images/history.jpg"
+    img: "../images/action.jpg"
   },
 
   {
     name: 'HORROR',
-    img: "../images/horror.jpg"
+    img: "../images/action.jpg"
   },
 
   {
     name: 'MUSIC',
-    img: "../images/music.jpg"
+    img: "../images/action.jpg"
   },
 
   {
     name: 'MYSTERY',
-    img: "../images/mystery.jpeg"
+    img: "../images/action.jpg"
   },
 
   {
     name: 'ROMANCE',
-    img: "../images/romance.jpeg"
+    img: "../images/action.jpg"
   },
 
   {
     name: 'SCIENCE FICTION',
-    img: "../images/science-fiction.jpg"
+    img: "../images/action.jpg"
   },
 
   {
     name: 'THRILLER',
-    img: "../images/thriller.jpg"
+    img: "../images/action.jpg"
   },
 
   {
     name: 'WAR',
-    img: "../images/war.jpg"
+    img: "../images/action.jpg"
   },
 
   {
     name: 'WESTERN',
-    img: "../images/western.jpg"
+    img: "../images/action.jpg"
   },
 ]
 
