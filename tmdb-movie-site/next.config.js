@@ -1,7 +1,3 @@
 /** @type {import('next').NextConfig} */
 
-module.exports = {
-	images: {
-		domains: ['cdn.sanity.io']
-	}
-};
+module.exports = { reactStrictMode: true, images: { loader: "default", minimumCacheTTL: 60, domains: [ "image.tmdb.org" ], }, }

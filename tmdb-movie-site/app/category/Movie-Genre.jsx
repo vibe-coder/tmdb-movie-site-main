@@ -16,7 +16,7 @@ const MovieGenre = (props) => {
 
 
   return (
-    <button onChange={() => setIsCollapse(!isCollapse)} className="genre">
+    <button onMouseMove={() => setIsCollapse(!isCollapse)} className="genre">
        <Image className="genre-image" 
        src= {MyImage}
        alt="back drop" 
