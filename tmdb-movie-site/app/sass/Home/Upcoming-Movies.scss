@@ -15,22 +15,27 @@
       display: flex;
       flex-wrap: wrap;
       gap: 8px;
+      // justify-content: space-between;
   
       .upcoming-movie-wrapper{
         background-color: rgb(38, 38, 38);
-        width: 118px;
-        height: 180px;
-        aspect-ratio: 3/2;
-        // flex: 1;
-        border-radius: 10px;
+        width: 100px;
+        height: 150px;
+        // aspect-ratio: 3/2;
+        flex: 1;
+        border-radius: 20px;
+        position: relative;
       }
   
       .upcoming-movie-poster{
-        object-fit:fill;
+        object-fit: cover;
         object-position: center;
         width: 100%;
         height: 100%;
         border-radius: 10px;
+        position: absolute;
+        border-radius: 20px;
+
       }
     }
   }
