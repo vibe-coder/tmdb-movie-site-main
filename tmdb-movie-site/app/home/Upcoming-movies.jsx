@@ -36,7 +36,9 @@ const UpcomingMovies = () => {
   let movieResult = [1, 2, 3]
   console.log
 
-  
+
+
+  // Fetching upcoming Movies API with function
   const fetchMovies = () => {
     const options = {
       method: 'GET',
@@ -50,17 +52,20 @@ const UpcomingMovies = () => {
       .then(response => response.json())
       .then(data => {
 
-        // movieResult = Object.entries(data.results)
         console.log(data.results);
         getMovies(data.results)
       })
       .catch(err => console.error(err));
   }
 
+  // Calling upcoming movies function
+
   useEffect(() => { 
     fetchMovies()
   }, [])
 
+  
+  // This is image src preix
   let imgPref = "https://image.tmdb.org/t/p/w200/"
 
   return (
@@ -71,8 +76,13 @@ const UpcomingMovies = () => {
       <div className='upcoming-movies-wrapper'>   
         {movies.map((movie) => {
            return (
-                <div className="upcoming-movie" key={movie.id}>
-                   <Image className='upcoming-movie-poster'  src={imgPref + movie.poster_path} width={120} height={150} alt={movie.original_title}/>
+                <div className="upcoming-movie-box" key={movie.id}>
+                   <Image className='upcoming-movie-poster'  
+                  src={imgPref + movie.poster_path} 
+                  sizes={100} 
+                  alt={movie.original_title}
+                  fill={true}
+                  />
                 </div>
            );
         })}
@@ -80,12 +90,4 @@ const UpcomingMovies = () => {
     </div>
   )
 }
-
-// "https://image.tmdb.org/t/p/w200//sC4Dpmn87oz9AuxZ15Lmip0Ftgr.jpg"
-// {<Image priority={true} className='upcoming-movie-poster' src={`https://image.tmdb.org/t/p/w200/${movies.poster_path}`} width={200} height={200} alt={movies.original_title} />}
-// {
-//   <p>{movies.original_title}</p>
-// }
-// style={{objectFit: "cover"}}
-
 export default UpcomingMovies
