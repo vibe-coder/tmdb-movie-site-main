@@ -14,21 +14,24 @@
       display: flex;
       flex-wrap: wrap;
       gap: 8px;
+      justify-content: space-between;
   
-      .popular-movie-wrapper{
-        background-color: green;
-        width: 118px;
-        height: 180px;
-        aspect-ratio: 3/2;
-        flex: 1;
+      .popular-movie-box{
+        background-color: rgb(38, 38, 38);
+        width: 100%;
+        height: 155px;
+        aspect-ratio: 2/3;
+        flex-grow: 1;
+        flex-basis: 100px;
         border-radius: 10px;
+        position: relative;
       }
   
       .popular-poster{
         object-fit: cover;
         object-position: center;
-        width: 100%;
-        height: 100%;
+        border-radius: 10px;
+        position: absolute;
         border-radius: 10px;
       }
     }

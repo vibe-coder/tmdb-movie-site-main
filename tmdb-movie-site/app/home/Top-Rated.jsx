@@ -23,7 +23,7 @@ const TopRated = () => {
       .then(response => response.json())
       .then(data => {
         const newTopRated = data.results.slice(0, -2)
-        console.log(newTopRated)
+        // console.log(newTopRated)
         getTopRatedMovies(newTopRated)
       })
       .catch(err => console.error(err));
