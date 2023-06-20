@@ -5,7 +5,7 @@ import "../sass/Home/Upcoming-Movies.scss"
 import Image from 'next/image'
 import John from "../images/john.jpeg"
 import {useState, useEffect} from "react"
-import { resolve } from 'styled-jsx/css'
+
 
 
 
@@ -67,14 +67,13 @@ const UpcomingMovies = () => {
     <div className='upcoming-container'>
 
       <h1>Upcoming</h1>
-
+      
       <div className='upcoming-movies-wrapper'>   
         {movies.map((movie) => {
            return (
-              <div className="upcoming-movie-wrapper" key={movie.id}>
-                 <Image className='upcoming-movies-poster'  src={imgPref + movie.poster_path} width={105} height={150} alt={movie.original_title}  />
-                 {/* <h2 className="post-title">{movie.original_title}</h2> */}
-              </div>
+                <div className="upcoming-movie" key={movie.id}>
+                   <Image className='upcoming-movie-poster'  src={imgPref + movie.poster_path} width={120} height={150} alt={movie.original_title}/>
+                </div>
            );
         })}
       </div>   
@@ -87,5 +86,6 @@ const UpcomingMovies = () => {
 // {
 //   <p>{movies.original_title}</p>
 // }
+// style={{objectFit: "cover"}}
 
 export default UpcomingMovies
