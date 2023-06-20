@@ -33,15 +33,23 @@ const TopRated = () => {
     fetchTopRatedMovies()
   }, [])
 
+  let imgPref = "https://image.tmdb.org/t/p/w200/"
+
   return (
     <div className='top-rated-container'>
       <h1>Top Rated</h1>
 
       <div className='top-rated-movies-wrapper'>
-        <div className='top-rated-movie-wrapper'>
-          <Image priority={true} className='top-rated-poster' src={John} alt='Iron Man' />        
-        </div>
 
+        {
+          topRatedMovies.map((topMovies) => {
+            return(
+              <div className='top-rated-movie-box' key={topMovies.id}>
+                <Image priority={true} className='top-rated-poster' src={imgPref + topMovies.poster_path} alt='Iron Man' fill={true} sizes={100} />        
+              </div>
+            )
+          })
+        }
       </div>
     </div>
   )
