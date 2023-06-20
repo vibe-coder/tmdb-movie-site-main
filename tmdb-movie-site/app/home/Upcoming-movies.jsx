@@ -52,8 +52,9 @@ const UpcomingMovies = () => {
       .then(response => response.json())
       .then(data => {
 
-        console.log(data.results);
-        getMovies(data.results)
+        // console.log(data.results);
+        const newMovieData = data.results.slice(0, -2);
+        getMovies(newMovieData)
       })
       .catch(err => console.error(err));
   }
