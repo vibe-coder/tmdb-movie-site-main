@@ -10,7 +10,7 @@ const Nav = () => {
       <div className='nav-wrapper'>
         <Link className='logo' href="/"><p>MovieSpace</p></Link>
         {/* <input className='search' placeholder='Search'/> */}
-        <Link className='category' href="./category" >Category</Link>
+        <button className='category' href="./category">Category</button>
       </div>
     </div>
   )

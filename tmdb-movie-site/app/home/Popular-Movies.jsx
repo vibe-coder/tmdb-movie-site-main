@@ -23,7 +23,7 @@ const PopularMovies = () => {
       .then(response => response.json())
       .then(data => {
         const newPopularMovies = data.results.slice(0, -2);
-        console.log(newPopularMovies)
+        // console.log(newPopularMovies)
         getPopularMovies(newPopularMovies)
       })
       .catch(err => console.error(err));
@@ -48,7 +48,7 @@ const PopularMovies = () => {
         {
           popularMovies.map((popularMoviesData) => {
             return(
-              <div className='popular-movie-box'>
+              <div className='popular-movie-box' key={popularMoviesData.id}>
                 <Image priority={true} className='popular-poster' src={imgPref + popularMoviesData.poster_path} alt={popularMoviesData.original_title} fill={true} sizes={100} />        
               </div>
             )
