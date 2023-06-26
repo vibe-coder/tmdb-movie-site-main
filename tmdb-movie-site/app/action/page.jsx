@@ -5,6 +5,7 @@ import "./Action.scss"
 import Image from 'next/image'
 import { useState, useEffect } from 'react'
 import backdrop from "../images/action-backdrop.jpg"
+import Footer from '../Footer'
 
 function page() {
 
@@ -44,31 +45,34 @@ function page() {
 
 
   return (
-    <div className='action-container'>
+    <>
+      <div className='action-container'>
 
-      <div className='backdrop'>
-        <div className='title-background'>
-          <h1>Action</h1>
+        <div className='backdrop'>
+          <div className='title-background'>
+            <h1>Action</h1>
+          </div>
+          <Image priority={true} className='backdrop-poster' src={backdrop} alt="backdrop" fill = {true} sizes={100} />        
         </div>
-        <Image priority={true} className='backdrop-poster' src={backdrop} alt="backdrop" height={450} width={350} />        
+
+
+        <div className='action-movies-wrapper'>
+
+          {
+            actionMovies.map((actionMovieData) => {
+              return(
+                <div className='action-movie-box' key={actionMovieData.id}>
+                <Image priority={true} className='action-poster' src={imgPref + actionMovieData.poster_path} alt={actionMovieData.original_title} fill={true} sizes={100} />        
+              </div>
+              )
+            })
+          }
+
+
+        </div>
       </div>
-
-      
-      <div className='action-movies-wrapper'>
-
-        {
-          actionMovies.map((actionMovieData) => {
-            return(
-              <div className='action-movie-box' key={actionMovieData.id}>
-              <Image priority={true} className='action-poster' src={imgPref + actionMovieData.poster_path} alt={actionMovieData.original_title} fill={true} sizes={100} />        
-            </div>
-            )
-          })
-        }
-
-
-      </div>
-    </div>
+      <Footer/>
+    </>
   )
 }
 
