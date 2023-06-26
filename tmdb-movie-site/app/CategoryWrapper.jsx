@@ -12,7 +12,7 @@ function CategoryList() {
       <div className='black-box'><p>Hey</p></div>
       <p className='LinkWrapper'><Link href="./action" className='link'>Action</Link></p>
       <p className='LinkWrapper'><Link href="./adventure" className='link'>Adventure</Link></p>
-      <p className='LinkWrapper'><Link href="./action" className='link'>Animation</Link></p>
+      <p className='LinkWrapper'><Link href="./animation" className='link'>Animation</Link></p>
       <p className='LinkWrapper'><Link href="./action" className='link'>Comedy</Link></p>
       <p className='LinkWrapper'><Link href="./action" className='link'>Crime</Link></p>
       <p className='LinkWrapper'><Link href="./action" className='link'>Documentary</Link></p>
