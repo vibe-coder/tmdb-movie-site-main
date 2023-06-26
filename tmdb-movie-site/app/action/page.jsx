@@ -4,7 +4,7 @@ import React from 'react'
 import "./Action.scss"
 import Image from 'next/image'
 import { useState, useEffect } from 'react'
-import backdrop from "../images/action-backdrop.jpg"
+import backdrop from "../images/Action/action-backdrop.jpg"
 import Footer from '../Footer'
 
 function page() {
