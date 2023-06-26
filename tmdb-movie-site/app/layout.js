@@ -1,10 +1,10 @@
+"use client"
 import './globals.css'
-import { Inter } from 'next/font/google'
-import Nav from './Nav'
-import Footer from './Footer'
-import CategoryList from './CategoryList'
+import CategoryWrapper from './CategoryWrapper'
+import { useState, useEffect, useRef } from 'react'
+import "./sass/Nav.scss"
+import Link from 'next/link'
 
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'MovieSpace',
@@ -12,12 +12,25 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
+
+  const [genres, showGenres] = useState(false)
+
+
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body>
       <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap" rel="stylesheet"/>
-        <Nav/>
-        <CategoryList/>
+        
+
+        <div className='nav-container'>
+          <div className='nav-wrapper'>
+            <Link className='logo' href="/"><p>MovieSpace</p></Link>
+            <button  onClick={() =>  showGenres(!genres) } className='category' href="./category">Genres</button>
+          </div>
+        </div>
+
+
+        {genres && <CategoryWrapper/>}
         {children}
       </body>
     </html>

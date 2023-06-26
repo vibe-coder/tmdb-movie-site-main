@@ -1,10 +1,12 @@
 import React from 'react'
-import "../sass/Category/Action.scss"
+import "./Action.scss"
 
 function page() {
   return (
     <div className='action-container'>
-      This is action
+      <div>
+        This is action
+      </div>
     </div>
   )
 }
