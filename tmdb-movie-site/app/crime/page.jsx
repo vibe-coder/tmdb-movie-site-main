@@ -1,18 +1,18 @@
 "use client"
 
 import React from 'react'
-import "./Comedy.scss"
+import "./Crime.scss"
 import Image from 'next/image'
 import { useState, useEffect } from 'react'
-import backdrop from "../images/Comedy/comedy.jpeg"
+import backdrop from "../images/Crime/crime.jpg"
 import Footer from '../Footer'
 
 function page() {
 
 
-  const [comedyMovies, getComedyMovies] = useState([])
+  const [crimeMovies, getCrimeMovies] = useState([])
 
-  const fetchComedyMovies = () => {
+  const fetchCrimeMovies = () => {
     const options = {
       method: 'GET',
       headers: {
@@ -21,16 +21,16 @@ function page() {
       }
     };
     
-    fetch('https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc&with_genres=35', options)
+    fetch('https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc&with_genres=80', options)
       .then(response => response.json())
       .then(data => {
 
         console.log(data)
-        const comedyMoviesResult = data.results.slice(0, -2);
+        const crimeMoviesResult = data.results.slice(0, -2);
 
-        console.log(comedyMoviesResult)
+        console.log(crimeMoviesResult)
 
-        getComedyMovies(comedyMoviesResult)
+        getCrimeMovies(crimeMoviesResult)
 
       })
       .catch(err => console.error(err));
@@ -38,7 +38,7 @@ function page() {
   }
 
   useEffect(()=> {
-    fetchComedyMovies()
+    fetchCrimeMovies()
   }, [])
                     
   let imgPref = "https://image.tmdb.org/t/p/w200/"
@@ -46,23 +46,23 @@ function page() {
 
   return (
     <>
-      <div className='comedy-container'>
+      <div className='crime-container'>
 
         <div className='backdrop'>
           <div className='title-background'>
-            <h1>Comedy</h1>
+            <h1>Crime</h1>
           </div>
           <Image priority={true} className='backdrop-poster' src={backdrop} alt="backdrop" fill = {true} sizes={100} />        
         </div>
 
 
-        <div className='comedy-movies-wrapper'>
+        <div className='crime-movies-wrapper'>
 
           {
-            comedyMovies.map((comedyMovieData) => {
+            crimeMovies.map((crimeMovieData) => {
               return(
-                <div className='comedy-movie-box' key={comedyMovieData.id}>
-                  <Image priority={true} className='comedy-poster' src={imgPref + comedyMovieData.poster_path} alt={comedyMovieData.original_title} fill={true} sizes={100} />        
+                <div className='crime-movie-box' key={crimeMovieData.id}>
+                  <Image priority={true} className='crime-poster' src={imgPref + crimeMovieData.poster_path} alt={crimeMovieData.original_title} fill={true} sizes={100} />        
                 </div>
               )
             })
