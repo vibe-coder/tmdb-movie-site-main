@@ -15,7 +15,7 @@ function CategoryList() {
       <p className='LinkWrapper'><Link href="./animation" className='link'>Animation</Link></p>
       <p className='LinkWrapper'><Link href="./comedy" className='link'>Comedy</Link></p>
       <p className='LinkWrapper'><Link href="./crime" className='link'>Crime</Link></p>
-      <p className='LinkWrapper'><Link href="./action" className='link'>Documentary</Link></p>
+      <p className='LinkWrapper'><Link href="./documentary" className='link'>Documentary</Link></p>
       <p className='LinkWrapper'><Link href="./drama" className='link'>Drama</Link></p>
       <p className='LinkWrapper'><Link href="./action" className='link'>Family</Link></p>
       <p className='LinkWrapper'><Link href="./action" className='link'>Fantasy</Link></p>
